@@ -1,0 +1,1 @@
+# Codeigniter Bootstrap alert message
