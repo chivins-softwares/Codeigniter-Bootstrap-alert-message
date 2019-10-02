@@ -12,8 +12,22 @@ $alert_identification_key	=> the key to use identify the particular message you 
 $this->load->library('alert');
 $this->alert->set('Hello Chivins fans. You have successful view our snippet', 'success', 'snippet_alert');
 ```
+<br />
+<br />
 
-Try this
+2. **get($alert_identification_key)** <br />
+**Description:**
+This method is used to return the alert message base on its identification key. Mind you, this snippet uses one parameter<br />
+$alert_identification_key	=> the key to use identify the particular message you want to return to the user<br />
+**usage:**
+```php
+$this->load->library('alert');
+echo $this->alert->get('snippet_alert'); // Output: Hello Chivins fans. You have successful view our snippet
+```
+<br />
+You can go ahead to try this to make your alert work in your project
+
+**Try this**
 
 ```php
   class Login extends CI_Controller {
@@ -38,9 +52,10 @@ Try this
 	}
 ```
 
-then on the view part try this
+**then on the view part try this**
 
 ```php
 echo $this->alert->get('login_msg');
 ```
-That is all there is no big deal to it
+That is all. There is no big deal to it
+More update is coming
