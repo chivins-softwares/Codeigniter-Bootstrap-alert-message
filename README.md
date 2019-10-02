@@ -2,7 +2,7 @@
 You need to check on the controller and the view folder to see how to use this small code. It is just a small step which will not even take time to understand its usage
 This snippet came with two main method for client or developer usage
 
-1. **set($msg, $alert_type, $alert_identification_key)**__
+1. **set($msg, $alert_type, $alert_identification_key)** <br />
 **Description:**
 This method is used to set the alert message. Mind you, this snippet uses three parameters
 $msg 				=> The message you want to pass to the user__
