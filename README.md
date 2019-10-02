@@ -2,12 +2,12 @@
 You need to check on the controller and the view folder to see how to use this small code. It is just a small step which will not even take time to understand its usage
 This snippet came with two main method for client or developer usage
 
-1. **set($msg, $alert_type, $alert_identification_key)**
-Description:
+1. **set($msg, $alert_type, $alert_identification_key)**__
+**Description:**
 This method is used to set the alert message. Mind you, this snippet uses three parameters
-$msg 				=> The message you want to pass to the user
-$alert_type 			=> The alert type you are trying to trigger e.g error, success, info, and warning
-$alert_identification_key	=> the key to use identify the particular message you want to display to the user
+$msg 				=> The message you want to pass to the user__
+$alert_type 			=> The alert type you are trying to trigger e.g error, success, info, and warning__
+$alert_identification_key	=> the key to use identify the particular message you want to display to the user__
 
 usage:
 ```php
