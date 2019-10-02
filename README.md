@@ -27,3 +27,8 @@ Try this
 ```
 
 then on the view part try this
+
+```php
+echo $this->alert->get('login_msg');
+```
+That is all there is no big deal to it
