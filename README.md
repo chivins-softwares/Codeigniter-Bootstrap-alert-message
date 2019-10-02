@@ -1,6 +1,20 @@
 # Codeigniter Bootstrap alert message
 You need to check on the controller and the view folder to see how to use this small code. It is just a small step which will not even take time to understand its usage
-OR
+This snippet came with two main method for client or developer usage
+
+1. *** set($msg, $alert_type, $alert_identification_key) ***
+Description:
+This method is used to set the alert message. Mind you, this snippet uses three parameters
+$msg 				=> The message you want to pass to the user
+$alert_type 			=> The alert type you are trying to trigger e.g error, success, info, and warning
+$alert_identification_key	=> the key to use identify the particular message you want to display to the user
+
+usage:
+```php
+$this->load->library('alert');
+$this->alert->set('Hello Chivins fans. You have successful view our snippet', 'success', 'snippet_alert');
+```
+
 Try this
 
 ```php
