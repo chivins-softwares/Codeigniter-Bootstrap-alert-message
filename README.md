@@ -3,7 +3,8 @@ You need to check on the controller and the view folder to see how to use this s
 This snippet came with two main method for client or developer usage
 <br />
 **First load library**
-First we will need to load our library either autoload through `application => config => autoload.php` look for ```php $autoload[libraries'] ``` then add this ```php $autoload['libraries'] = array('alert'); ``` or we just load it through our controller, model, libraries as ```php $this->load->library('alert'); ```
+First we will need to load our library either autoload through `application => config => autoload.php` look for ``php $autoload[libraries'] `` then add this ``php $autoload['libraries'] = array('alert'); 
+`` or we just load it through our controller, model, libraries as ```php $this->load->library('alert'); ```
 
 1. **set($msg, $alert_type, $alert_identification_key)** <br />
 **Description:**
