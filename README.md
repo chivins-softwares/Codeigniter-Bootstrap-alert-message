@@ -1,6 +1,9 @@
 # Codeigniter Bootstrap alert message
 You need to check on the controller and the view folder to see how to use this small code. It is just a small step which will not even take time to understand its usage
 This snippet came with two main method for client or developer usage
+<br />
+**First load library**
+First we will need to load our library either autoload through `application => config => autoload.php` look for ```php $autoload[libraries'] ``` then add this ```php $autoload['libraries'] = array('alert'); ``` or we just load it through our controller, model, libraries as ```php $this->load->library('alert'); ```
 
 1. **set($msg, $alert_type, $alert_identification_key)** <br />
 **Description:**
@@ -9,7 +12,6 @@ $msg 				=> The message you want to pass to the user<br />
 $alert_type 			=> The alert type you are trying to trigger e.g error, success, info, and warning<br />
 $alert_identification_key	=> the key to use identify the particular message you want to display to the user<br />**usage:**
 ```php
-$this->load->library('alert');
 $this->alert->set('Hello Chivins fans. You have successful view our snippet', 'success', 'snippet_alert');
 ```
 <br />
@@ -21,7 +23,6 @@ This method is used to return the alert message base on its identification key. 
 $alert_identification_key	=> the key to use identify the particular message you want to return to the user<br />
 **usage:**
 ```php
-$this->load->library('alert');
 echo $this->alert->get('snippet_alert'); // Output: Hello Chivins fans. You have successful view our snippet
 ```
 <br />
