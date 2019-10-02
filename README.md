@@ -7,11 +7,7 @@ This snippet came with two main method for client or developer usage
 This method is used to set the alert message. Mind you, this snippet uses three parameters<br />
 $msg 				=> The message you want to pass to the user<br />
 $alert_type 			=> The alert type you are trying to trigger e.g error, success, info, and warning<br />
-$alert_identification_key	=> the key to use identify the particular message you want to display to the user<br />
-<br />
-
-**usage:**<br />
-
+$alert_identification_key	=> the key to use identify the particular message you want to display to the user<br />**usage:**
 ```php
 $this->load->library('alert');
 $this->alert->set('Hello Chivins fans. You have successful view our snippet', 'success', 'snippet_alert');
