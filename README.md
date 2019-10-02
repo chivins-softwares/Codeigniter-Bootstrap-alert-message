@@ -9,7 +9,9 @@ $msg 				=> The message you want to pass to the user<br />
 $alert_type 			=> The alert type you are trying to trigger e.g error, success, info, and warning<br />
 $alert_identification_key	=> the key to use identify the particular message you want to display to the user<br />
 <br />
-**usage:**
+
+**usage:**<br />
+
 ```php
 $this->load->library('alert');
 $this->alert->set('Hello Chivins fans. You have successful view our snippet', 'success', 'snippet_alert');
